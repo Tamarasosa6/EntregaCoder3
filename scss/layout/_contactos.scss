@@ -1,0 +1,50 @@
+/*pagina 5 -Contactos*/
+$text-align:center;
+$padding: 1.25rem;
+
+.contactos {display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:$padding;
+    background-color: map-get($Colores, color2 );
+
+h1 {@include h1-estilos;}
+
+h1:hover { transform: scale(1.4);
+filter: drop-shadow(.3125rem .125rem .625rem #FA2946)
+}
+h2 {
+    font-family: "handlee";
+    font-size: 2.1875rem;
+    text-align: $text-align;
+}
+
+h2:hover {transform: scale(1.4);
+    filter: drop-shadow(.3125rem .125rem .625rem #FA2946);
+}
+
+.datosubi {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    padding: $padding;
+    text-align: center;
+}
+
+.datosubi:hover {transform: scale(1.1);}
+
+.datostel {
+    display: flex;
+    flex-direction: column;
+    padding:$padding;
+    text-align: $text-align;
+}
+
+.datostel:hover{transform: scale(1.1);}
+
+.datostel img {
+     width:43.75rem;
+    margin-left: 3.125rem;
+    margin-right:3.125rem ;
+    padding: $padding;  
+}}

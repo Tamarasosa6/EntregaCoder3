@@ -1,0 +1,18 @@
+/*navegación*/
+.Navbar{
+background-color:map-get($Colores ,color1 );
+text-align: center;
+padding:.625rem;
+    
+a{
+color:white;
+text-decoration: none;
+padding: .625rem 2.5rem;
+font-family: "handlee";
+font-weight: 500;
+font-size: 1.375rem ;
+}
+    
+a:hover{
+background-color: map-get($Colores, color5);
+}}
