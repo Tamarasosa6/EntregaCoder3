@@ -1,22 +1,21 @@
 /*responsive-1094px*/
 @media (max-width:1094px){
+.header-index {padding: .625rem;}
+
 .header-index img {
-    width: 25rem;
-    height: 25rem;}
+    width: 18.75rem;
+    height: 18.75rem;}
+
 .Navbar{
-    font-size: 1.25rem ;
-    display: flex;
-    flex-direction: column;}
+    font-size: 1.375rem;}
+
 .Navbar a {
-    font-size: 1.875rem;
-    font-weight: bold;}
+    font-size: .9375rem;
+    font-weight: bold;
+    padding: .3125rem 1.25rem;
+}
 .main-index p{font-weight: bold;}
-aside img {
-    width:25rem;
-    height: 12.5rem;}
-.principal p {
-    font-size: 1.5625rem;
-    font-weight: 700;}
+
 .holistica {
     display: flex;
     flex-direction: column;
@@ -37,6 +36,12 @@ aside img {
     font-size: 1.25rem;
     color:white;
     }
+
+.grupo2 img{width: 7.5rem;
+height:9.375rem;}
+
+.button{padding: .625rem;}
+
 .footer-index {display: flex;
     flex-direction: row;
     width: 100%;
@@ -46,102 +51,69 @@ aside img {
     margin: 0rem;
     flex-wrap: wrap
     }
-.logo img{
-    width:18.75rem;
-    height: 18.75rem;
-    display: flex;
-    flex-direction:column;
-    padding:.3125rem;
-    margin: .3125rem;
-    }
-.footer1 ul li{
-    padding: .3125rem;
-    }
-.domi h2 {
-    margin-bottom: 0rem;
-    font-size:.9375rem;
-    }
-.domi p {
-    font-size: .75rem;
-    }
-.tarjetas .visa {
-    width:1.875rem;
-    width: 3.125rem;
-    }
-.tarjetas .amex {
-    width:1.875rem;
-    width: 3.125rem;
-    }
-.tarjetas .master {
-    width:1.875rem;
-    width: 3.125rem;
-    }
-.redes h2{
-    margin-bottom: 0rem;
-    font-size:.9375rem;
-    }
-.redes img{
-    width:1.875rem;
-    width: 3.125rem;
-    }
-.ubi h2 {
-    margin-bottom: 0rem;
-    font-size:.9375rem;
-    }
-.ubi img {
-    width:1.875rem;
-    width: 3.125rem;
-    }}
+
+.footer-index p {font-size: 1.0625rem;
+text-align: left;
+font-weight: bold;
+}
+
+.footer-index ul li {font-size: 1.0625rem;
+font-weight: bold;}
+
+.footer-index img {width: 2.5rem;
+height: 2.5rem;}
+}
 
 /*Responsive -elegirme*/
-@media (max-width:1094px){
+@media (max-width:68.375rem){
 .elegirme{
     flex-direction: column;
     display: flex;
+    margin: .3125rem;
     }
 
-.infogeneral {
-    font-size: .9375rem;}
-
-.infogeneral h2{
-    font-size: 18.75rem ;}}
+    .Generales p:hover {transform: scale(0.9);}
+}
 
     /*responsive-Cursos*/
 
-@media (max-width:1094px){
-
-        .cursos .grid1 {
-            flex-direction:column;
-            display: flex;}
-
-            img{width: 25rem;
-            height: 25rem;}
-
-            .cursos .pagina3 h1 {font-size: 3.125rem;
-            font-weight: bold;}
+@media (max-width:68.375rem){
+.grid img:hover {transform: scale(1.1);}
+.cursos .grid1 {
+    flex-direction:column;
+    display: flex;}
+img{width: 18.75rem;
+    height: 18.75rem}
         
-            .grid1 p{font-size: 1.875rem;
+.grid1 p{font-size: 1.25rem;
             font-weight: bold;}
     }
 
 /*respondive-Sesiones*/
 @media (max-width:1094px){
-.sesiones{ background-color: #D0F5BD;}
 
 .fotopag4{display: flex;
     flex-direction:column;}
+
+.fotopag4 img {height: 12.5rem;
+width:12.5rem ;}
+
+.fotopag4 p:hover {transform: scale(0.7);}
 
     .infocurso .precios{display: flex;
     flex-direction:column;
     margin:  0;
     margin-left: 0;}
 
-    .footer-index .logo{ width: 17.1875rem;
-        height: 15.625rem;
-        padding: 0;
-      
-}}
+    .precios p {text-decoration:line-through;
+    }
+
+
+    .footer-index img{ width:1.875rem;
+        height: 1.875rem;
+        padding: 0;}}
 
 /*respondive-Contactos*/
 @media (max-width:1094px){
-    .logo{ width: 6.25rem;}}
+    .contactos h1{font-size: 1.875rem;}
+    .contactos h2{font-size: 1.5625rem;}}

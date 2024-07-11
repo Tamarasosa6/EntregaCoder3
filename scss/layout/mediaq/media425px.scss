@@ -1,35 +1,51 @@
 /*responsive 425px-inicio*/
 @media (max-width:425px){
-    .Navbar a {font-size: 1.25rem;}
-    .principal .imagen {
-        margin-left: .3125rem;
-}
+    .header-index img{
+        width: 11.3125rem;
+        height: 11.25rem;}
     
-    .holistica h2{font-size: 1.375rem;}
-    .holistica ul li {font-size: 1.125rem;}
-    .holistica a {font-size: .9375rem;}
-    .footer-index .logo img {
-        width: 15.625rem;
-        height:15.625rem;}}
+    .header-index h1 {font-size: 1.25rem;
+    font-weight: bold;}
+
+    .header-index p {font-size:1.0625rem ;
+    font-weight: 500;}
+
+    .Navbar a {font-size: .9375rem;}
+    
+    .main-index p{font-weight: bold;
+        font-size: .75rem;}
+        
+    .terapia{font-size: .625rem;}
+
+    .holistica ul li {font-size: .9375rem;}
+
+    .grupo2{display: flex;
+    flex-direction: column;
+    margin: .3125rem;
+    padding: .3125rem ;}
+
+.grupo2 img {width: 4.375rem;
+    height: 8.75rem;}
+
+.grupo2 p {font-size: .5rem;}}
+
+/*Responsive 425px- ¿Por qué Elegirme?*/
+@media (max-width:425px){ç
+    .Generales h2:hover{transform: scale(0.7);}
+    .Generales p:hover {transform: scale(0.7);
+    font-weight: bold;}
+    .sanacion h2:hover {transform: scale(0.7);}}
 
 /*responsive 425px-Cursos*/
 @media (max-width:425px){
-    .cursos .pagina3 h2 {font-size: 1.375rem;}
-    .grid1 img { width: 11.25rem;
-    height: 11.25rem;}}
+    .cursos .pagina3 h1{font-size: 1.375rem;
+    font-weight: bold;}
+    .cursos .pagina3 h2{font-size:1.25rem;}
+    img{width: 15.625rem;
+        height: 15.625rem}
+    .grid1 p {font-size:1.0625rem;}
+}
 
 /*responsive 425px-sesiones*/
 @media (max-width:425px){
-    .fotopag4 img{width: 18.75rem;
-        height: 18.75rem;
-}
-    .fotopag4 p {font-size: .625rem;}
-    .infocurso ,.precios{ margin-left: .125rem;
-}}
-/*responsive 425px-Contactos*/
-@media (max-width:26.5625rem) {
-.datostel img {border-radius: 1.25rem;
-width: 17.5rem;
-height:17.5rem;}
-.datostel img:hover {transform:scale(1.1) ;
-    transition: transform 300ms linear; filter: 200ms linear;}}
+.precios p {text-decoration:line-through;}}
